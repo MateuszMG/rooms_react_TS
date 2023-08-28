@@ -1,9 +1,5 @@
+import { RoomList } from './components/RoomList/RoomList';
+
 export const App = () => {
-  return (
-    <div>
-      <p> App </p>
-      <p> App </p>
-      <p> App </p>
-    </div>
-  );
+  return <RoomList />;
 };

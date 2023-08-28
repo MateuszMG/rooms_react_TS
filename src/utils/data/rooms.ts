@@ -1,4 +1,4 @@
-export const rooms = [
+export const mockedRooms = [
   {
     id: 1,
     name: 'Standard Double Room with a Sea View',
@@ -33,31 +33,5 @@ export const rooms = [
   },
 ];
 
-export type Rooms = typeof rooms;
-
-export const roomDetails = [
-  {
-    availabilityStatus: 'onRequest',
-    price: {
-      value: 23990,
-      currencyCode: 'CZK',
-    },
-  },
-  {
-    availabilityStatus: 'available',
-    price: {
-      value: 20490,
-      currencyCode: 'CZK',
-    },
-  },
-  {
-    availabilityStatus: 'soldOut',
-    price: null,
-  },
-  {
-    availabilityStatus: 'error',
-    price: null,
-  },
-];
-
-export type RoomDetails = typeof roomDetails;
+export type Rooms = typeof mockedRooms;
+export type Room = Rooms[0];
