@@ -37,7 +37,7 @@ export const RoomList = () => {
 
           {details && (
             <p>
-              Availability:{' '}
+              Availability:&nbsp;
               {separateStringOnCapitalCase(details.availabilityStatus)}
             </p>
           )}
