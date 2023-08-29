@@ -12,7 +12,3 @@
 - "test": "react-scripts test",
 - "cypress": "cypress open",
 - "format": "prettier --write 'src/\*_/_.{ts,tsx,css,json}' --config ./.prettierrc"
-
-### Other
-
-- Node requirements: "^14.18.0 || ^16.14.0 || >=18.0.0".
