@@ -9,6 +9,4 @@
 
 - "dev": "BROWSER=none PORT=3015 react-scripts start",
 - "start": " react-scripts start",
-- "test": "react-scripts test",
-- "cypress": "cypress open",
 - "format": "prettier --write 'src/\*_/_.{ts,tsx,css,json}' --config ./.prettierrc"
