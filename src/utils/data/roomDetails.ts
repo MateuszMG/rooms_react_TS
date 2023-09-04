@@ -1,13 +1,13 @@
 type AvailabilityStatus = 'onRequest' | 'available' | 'soldOut' | 'error';
 
 interface Price {
-  value: number;
   currencyCode: string;
+  value: number;
 }
 
 export interface RoomDetails {
-  id: number;
   availabilityStatus: AvailabilityStatus;
+  id: number;
   price: Price | null;
 }
 
