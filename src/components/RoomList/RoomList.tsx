@@ -22,7 +22,7 @@ export const RoomList = () => {
     setRooms(updatedRooms);
   };
 
-  const selectRoom = (name: String) => {
+  const selectRoom = (name: string) => {
     console.log('Selected room: ' + name);
   };
 
