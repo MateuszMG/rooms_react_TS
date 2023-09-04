@@ -41,7 +41,7 @@ export const RoomList = () => {
               {separateStringOnCapitalCase(details.availabilityStatus)}
             </p>
           )}
-          {details?.price && <p>Checked price: {details.price.value}</p>}
+          {details?.price && <p>Checked price:&nbsp;{details.price.value}</p>}
 
           <div className={styles.buttonWrapper}>
             <button
